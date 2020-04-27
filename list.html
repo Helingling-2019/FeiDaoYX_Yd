@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/alert.css">
+	<link rel="stylesheet" href="css/miniMobile.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/rem.js"></script>
+	<script src="js/miniMobile.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+	<header class="m-header h13">
+		<div class="m-header-l fl h13"><a href=""><img src="images/logo.png" alt=""></a></div>
+		<div class="m-header-c fl h6"><a href=""><span class="fl">请输入国家/城市/项目名</span></a></div>
+		<div class="m-header-r fl h13"><a href="#" class="toggle"><img src="images/more.png" alt=""></a></div>
+		</header>
+		<!-- 侧边导航 -->
+		<div class="sidebar-box">
+			<div class="sidebar">
+				<ul>
+					<li class="list"><a href="index.html" target="_blank"><i><img src="images/nav_1.png" alt=""></i>  首页</a></li>
+					<li class="list"><a href="list.html" target="_blank"><i><img src="images/nav_2.png" alt=""></i>  精选学校</a></li>
+					<li class="list"><a href="class.html" target="_blank"><i><img src="images/nav_3.png" alt=""></i>  宿务名校</a></li>
+					<li class="list"><a href="details.html" target="_blank"><i><img src="images/nav_4.png" alt=""></i>  游学资讯</a></li>
+					<li class="list"><a href="infomation.html" target="_blank"><i><img src="images/nav_5.png" alt=""></i>  游学定制</a></li>
+					<li class="list"><a href="inforlist.html" target="_blank"><i><img src="images/nav_4.png" alt=""></i>  资讯列表</a></li>
+					<li class="list"><a href="about.html" target="_blank"><i><img src="images/nav_6.png" alt=""></i>  咨询我们</a></li>
+				</ul>
+			</div>
+			<div class="sidebar-other"></div>
+		</div>
+	<!-- 悬挂弹框 -->
+	<div class="m-frame-box">
+		<div class="m-frame">
+			<div class="m-framegb"><a href="javascript:void(0)"><img src="images/x.png" alt=""></a></div>
+		<form class="submit">
+			<div class="m-bm-input">
+				<input type="text" name="mobile" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的手机号'" placeholder="请输入您的手机号">
+				<button>立即获取</button>
+			</div>
+		</form>
+		</div>
+			</div>
+		<div class="fr-on"><img src="images/7.png" alt=""></div>
+
+	<!-- 菜单导航 -->
+<div class="d-menu">
+	<div class="d-menu-list fl f18 pb3">
+		<ul>
+			<li>
+				<a href="">排序</a>
+				<ul>
+					<li><a href="JavaScript:void(0)">热门排序</a></li>
+					<li><a href="JavaScript:void(0)">学费排序</a></li>
+					<li><a href="JavaScript:void(0)">综合排序</a></li>
+					<br>
+					<br>
+				</ul>
+			</li>
+			<li>
+				<a href="">游学城市</a>
+				<ul>
+					<li><a href="JavaScript:void(0)">宿务</a></li>
+					<li><a href="JavaScript:void(0)">马尼拉</a></li>
+					<li><a href="JavaScript:void(0)">克拉克</a></li>
+					<li><a href="JavaScript:void(0)">碧瑶</a></li>
+					<br>
+					<br>
+				</ul>
+			</li>
+			<li>
+				<a href="">选择课程</a>
+				<ul>
+					<li><a href="JavaScript:void(0)">托福-TOEFL</a></li>
+					<li><a href="JavaScript:void(0)">雅思LELTS</a></li>
+					<li><a href="JavaScript:void(0)">多益TOEIC</a></li>
+					<li><a href="JavaScript:void(0)">一般英语ESL</a></li>
+					<li><a href="JavaScript:void(0)">Spata ESL-斯巴达英语</a></li>
+					<li><a href="JavaScript:void(0)">斯巴达课程</a></li>
+					<li><a href="JavaScript:void(0)">PMC-英语演讲</a></li>
+					<li><a href="JavaScript:void(0)">Business English 商务通英语</a></li>
+					<br>
+					<br>
+				</ul>
+			</li>
+			<li>
+				<a href="">特色课程</a>
+				<ul>
+					<li><a href="JavaScript:void(0)">亲子团队</a></li>
+					<li><a href="JavaScript:void(0)">秘籍斯巴达课程</a></li>
+					<li><a href="JavaScript:void(0)">夏令营/冬令营</a></li>
+					<li><a href="JavaScript:void(0)">口说课程</a></li>
+					<li><a href="JavaScript:void(0)">一对一课程</a></li>
+					<li><a href="JavaScript:void(0)">商用课程</a></li>
+					<br><br>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="img-idea mt1">
+	<div class="img-idea-list bg-color-white">
+		<ul>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="d-fei fl">
+					<img src="images/8b85b5b69b.jpg" alt="">
+					<div class="p-w f19"><img src="images/video5.png" alt="">菲律宾/宿务</div>
+				</div>
+				<div class="d-fei-r fl">
+					<div class="f28 mt2 h3"><b>IDEA (Cebu</b>校区)</div>
+					<div class="f19 h4 mt1 lh4"><div class="fl"><i>平均 学费</i><em>9200</em>元/月</div> <div class="fr"><img src="images/xing.jpg" alt="" class="size">4.5分</div></div>
+					<div class="school f21 h4 lh4"><b>学校简介：</b>BISM位于Makati往南约25km的Alabang附近，Makati是马尼拉地区乃至整个菲律宾的CBD，Alabang是一个新城，基础设施方面没有问题，安全性方面也有保障，也没有糟糕的的堵车和尾气，当然缺点就是相对来说一切都贵。</div>
+					<div class="info f17">
+						<div><i>TOEFL</i></div>
+						<div><i>Sparts ES</i></div>
+						<div><i>全斯巴达</i></div>
+						<div><i>雅思考场</i></div>
+						<div><i>Bushiness</i></div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<footer class="tfoot">
+	<div class="tfoot-main c">
+		<div class="t-cent zx-cent fl"><a href="">在线咨询</a></div>
+		<div class="call"><a href=""><img src="images/phone.png" alt=""></a></div>
+		<div class="t-right zf-btn fr"><a href="">帮我定制游学</a></div>
+	</div>
+</footer>
+</body>
+</html>
